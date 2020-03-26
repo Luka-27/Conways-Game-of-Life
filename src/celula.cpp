@@ -89,7 +89,7 @@ celula::contarVecinas(Tablero& table)
 
 
 
-//Static member that creates a cell depending on the type needed. Returns a pointer to the object allocated dinamycally
+//Static member that creates a cell depending on the type needed. Returns a pointer to the object allocated dynamically
 celula*
 celula::createCelula(int type, int i, int j)
 {
